@@ -1,4 +1,4 @@
-# Stata Editor
+# Sublime Stata
 
 **Author**: Daniel Fernandes<br>
 **Contact**: daniel.fernandes@eui.eu
