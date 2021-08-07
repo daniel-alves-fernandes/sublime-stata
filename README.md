@@ -5,8 +5,8 @@
 
 This package adds some Stata functionality to Sublime Text. It is based on two other packages already available for the platform:
 
-- Stata Enhanced, *by Andrew Heiss*
-- Stata Improved Editor, *by Zizhong Yan*
+- [Stata Enhanced](https://github.com/andrewheiss/SublimeStataEnhanced), *by Andrew Heiss*
+- [Stata Improved Editor](https://github.com/zizhongyan/StataImproved), *by Zizhong Yan*
 
 #### Features removed
 
