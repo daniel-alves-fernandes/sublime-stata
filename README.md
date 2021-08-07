@@ -16,7 +16,7 @@ This package adds some Stata functionality to Sublime Text. It is based on two o
 
 #### Features added
 
-- Combines support for interactive mode (CMD + Enter) and script mode (Shift + CMD + Enter) or (Ctrl + CMD + Enter)
+- Combines support for interactive mode (<kbd>cmd</kbd> + <kbd>enter</kbd>) and script mode (<kbd>shift</kbd> + <kbd>cmd</kbd> + <kbd>enter</kbd>) or (<kbd>control</kbd> + <kbd>cmd</kbd> + <kbd>enter</kbd>)
 - Interactive mode now correctly removes whitespaces when spaces are used for indentation
 - Tweaked syntax highlighting for Stata
 - Added syntax highlighting for dynamic documents
