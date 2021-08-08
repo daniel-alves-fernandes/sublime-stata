@@ -24,7 +24,7 @@ This package adds some Stata functionality to Sublime Text. It is based on two o
 
 #### Syntax Specific Settings
 
-For a better experience in .dyndoc and .sthlp files, copy and paste these options to Settings - Syntax Specific:
+For a better experience in .dyndoc and .sthlp files, copy and paste these options to `Settings - Syntax Specific`:
 
 ```json
 {
