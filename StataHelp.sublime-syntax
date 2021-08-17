@@ -1,0 +1,29 @@
+%YAML 1.2
+---
+# See http://www.sublimetext.com/docs/3/syntax.html
+name: Stata Help
+file_extensions:
+  - sthlp
+scope: source.sthlp
+version: 2
+
+contexts:
+  main:
+    - include: text
+    - include: syntax
+
+  text:
+    - match: '\\([{}])'
+      scope: source.dyndoc
+
+  syntax:
+    - match: '{'
+      push:
+       - meta_scope: comment.dyndoc
+       - match: '([:}])'
+         scope: comment.dyndoc
+         pop: true
+    - match: '\\}'
+      scope: source.dyndoc
+    - match: '}'
+      scope: comment.dyndoc
