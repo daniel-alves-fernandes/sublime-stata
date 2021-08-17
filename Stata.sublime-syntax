@@ -319,7 +319,7 @@ contexts:
     - include: low_priority_call
 
   loops:
-    - match: '{{command_check}}\b(for|foreach|forvalues|while)\b\s+(\w+)'
+    - match: '{{command_check}}\b(for|foreach|forval|forvalues|while)\b\s+(\w+)'
       captures:
         3: keyword.call.stata
         4: string.loop.stata
