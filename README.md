@@ -23,6 +23,7 @@ This package adds some Stata functionality to Sublime Text. It is based on two o
 - Added syntax highlighting for dynamic documents
 - Added syntax highlighting for Stata Help Files
 - Calling python and mata in .do files changes syntax highlighting dynamically
+- Support for Stata 16 and Stata 17
 
 #### Syntax Specific Settings
 
