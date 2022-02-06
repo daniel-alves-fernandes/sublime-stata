@@ -161,7 +161,6 @@ contexts:
     - match: '[$]'
       push: macro-global
       scope: string.macro.stata
-      pop: true
     - match: '\b(r|e|s|c)\([a-zA-Z_][\w]*\)'
       scope: string.macro.stata
 
