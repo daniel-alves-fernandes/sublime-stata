@@ -45,7 +45,7 @@ contexts:
         - match: '$'
           pop: true
 
-  comment_line_double:
+  comment_line:
     - match: '///?'
       push:
         - meta_scope: comment.mata
